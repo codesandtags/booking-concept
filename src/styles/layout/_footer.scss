@@ -1,0 +1,27 @@
+.footer {
+  background: $color-black;
+  color: $color-light;
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  flex-direction: column;
+
+  a {
+    color: $color-light;
+  }
+
+  &__social-links ul {
+    padding: 1rem 0;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    width: 20rem;
+
+    a {
+      border-bottom: 0;
+      font-size: 2rem;
+    }
+  }
+}
